@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@ElboutiqueDeYoselit</title>
+  <style>
+    :root {
+      --bg-color: #fde4ec;         /* rosa muy suave de fondo */
+      --accent-color: #e91e63;     /* pink intenso (coincide con logo) */
+      --btn-bg: #ffffffdd;         /* blanco con un poco de transparencia */
+      --btn-border: #e91e63;       /* borde rosa intenso */
+      --btn-text: #333333;         /* gris oscuro para buena legibilidad */
+      --btn-hover-bg: #ffe1ea;     /* rosa claro al pasar el cursor */
+      --font: 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-color);
+      font-family: var(--font);
+      color: var(--btn-text);
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+    }
+    header img {
+      max-width: 180px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--accent-color);
+    }
+    header p.slogan {
+      margin: 0 0 40px;
+      font-size: 1rem;
+      font-style: italic;
+      color: var(--btn-text);
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      max-width: 300px;
+      margin: 12px auto;
+      padding: 12px 16px;
+      background: var(--btn-bg);
+      border: 2px solid var(--btn-border);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--accent-color);
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn img {
+      width: 24px;
+      margin-right: 10px;
+    }
+
+    .btn:hover {
+      background: var(--btn-hover-bg);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- reemplaza por tu logo principal -->
+    <img src="assets/logo-principal.png" alt="El Boutique de Yoselit">
+    <h1>@ElboutiqueDeYoselit</h1>
+    <p class="slogan">vintage fashion de productos americanos</p>
+  </header>
+
+  <!-- 1. Comunidad Kitty -->
+  <a class="btn" href="https://wa.me/19146217793" target="_blank">
+    <img src="assets/icon-comunidad.png" alt="Comunidad Kitty">Realiza tus pedidos por aquí y unete a nuestra comunidad kitty
+  </a>
+
+  <!-- 2. Chat privado WhatsApp -->
+  <a class="btn" href="https://wa.me/51973898234"_blank">
+    <img src="assets/icon-whatsapp.png" alt="WhatsApp">WhatsApp para coordinar, delivery, recojos y horarios aquí
+  </a>
+
+  <!-- 3. Instagram -->
+  <a class="btn" href="https://www.instagram.com/el_boutique_de_yoselit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+    <img src="assets/icon-instagram.png" alt="Instagram">Instagram
+  </a>
+
+  <!-- 4. Facebook -->
+  <a class="btn" href="https://web.facebook.com/profile.php?id=100063963073018&locale=es_LA" target="_blank">
+    <img src="assets/icon-facebook.png" alt="Facebook">Facebook
+  </a>
+
+  <!-- 5. TikTok -->
+  <a class="btn" href="https://www.tiktok.com/@2025.elboutiquedeyoselit?is_from_webapp=1&sender_device=pc" target="_blank">
+    <img src="assets/icon-tiktok.png" alt="TikTok">Tik Tok
+  </a>
+
+</body>
+</html>
+
